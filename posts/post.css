@@ -1,0 +1,49 @@
+/* Extra styles for individual post pages — loaded after ../style.css */
+
+.post-header {
+  padding: 3rem 0 2rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 2.5rem;
+}
+
+.back-link {
+  display: inline-block;
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  color: var(--muted);
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  margin-bottom: 1.75rem;
+}
+.back-link:hover { color: var(--accent); text-decoration: none; }
+
+.center-image {
+  display: block;
+  margin-inline: auto; /* Centers the element horizontally */
+  max-width: 100%;     /* Keeps it responsive on smaller screens */
+  height: 500px;
+}
+
+.post-header h1 { margin-bottom: 0.75rem; }
+
+.post-dateline {
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+/* Prose body */
+.post-body p { margin-bottom: 1.4rem; }
+.post-body p:last-child { margin-bottom: 0; }
+
+/* Poetry body */
+.poem {
+  white-space: pre-wrap;
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  line-height: 2;
+  margin: 0;
+}
+
+.poem-stanza { margin-bottom: 1.75rem; }
+.poem-stanza:last-child { margin-bottom: 0; }
